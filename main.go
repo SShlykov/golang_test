@@ -16,7 +16,7 @@ func main() {
 	mapOffuncs()
 	regexTest()
 	importTest()
-
+	httpTest()
 	end := time.Now()
 	delta := end.Sub(start)
 	fmt.Printf("All operations took %s\n", delta)

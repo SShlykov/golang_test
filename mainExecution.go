@@ -1,8 +1,8 @@
 package main
 
 import (
-	"awesomeProject/uc"
 	"fmt"
+	"github.com/SShlykov/golang_test/uc"
 	"os"
 	"regexp"
 	"strconv"
@@ -61,4 +61,8 @@ func regexTest()  {
 }
 func importTest()  {
 	fmt.Printf("imported uppercase %s\n", uc.UpperCase("dfskjhfds"))
+}
+func httpTest() {
+	addr := "https://jsonplaceholder.typicode.com/posts/1"
+	postHandler(addr)
 }
