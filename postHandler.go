@@ -31,6 +31,6 @@ func postHandler(addr string) {
 		err = json.Unmarshal([]byte(body), &bodystr)
 		errHandler("Can`t read json ", err)
 
-		fmt.Printf("responce: %+v\n", bodystr)
+		fmt.Printf("response: %+v\n", bodystr)
 	}
 }
