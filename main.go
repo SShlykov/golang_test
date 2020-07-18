@@ -15,6 +15,7 @@ func main() {
 	bubleSortTest()
 	mapOffuncs()
 	regexTest()
+	loopTest()
 	importTest()
 	httpTest()
 	end := time.Now()

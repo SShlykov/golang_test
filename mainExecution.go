@@ -66,3 +66,7 @@ func httpTest() {
 	addr := "https://jsonplaceholder.typicode.com/posts/1"
 	postHandler(addr)
 }
+func loopTest(){
+	len := 10
+	loop(len)
+}
